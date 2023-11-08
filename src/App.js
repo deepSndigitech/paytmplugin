@@ -24,9 +24,8 @@ function App() {
     // Usage example
     if (isMobileDevice()) {
       function performAction() {
-        // window.location.href = `upi://pay?pn=Deeak&pa=9354940727@paytm&cu=INR&am=${totalAmount}`;
-        // window.location.href = `upi://pay?pa=9354340977@paytm&amp;pn=Deep K&amp;cu=INR`;
-        window.location.href = `upi://pay?pa=paytmqr2810050501011kzami7zz238@paytm&pn=Paytm%20Merchant&mc=5499&mode=02&orgid=000000&paytmqr=2810050501011KZAMI7ZZ238&cu=INR&am=${totalAmount}`;
+        window.location.href = `upi://pay?pn=Deeak&pa=919354340977@paytm&cu=INR&am=${totalAmount}`;
+    
       }
       // this.closeModal();
       performAction();
@@ -49,7 +48,7 @@ function App() {
 
   return (
     <div className="App">
-    hello how are  is am fine 
+    Make Payment For Test 
         
     <br />
     <p>Enter Amount to Send </p>

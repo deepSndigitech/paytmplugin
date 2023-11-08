@@ -24,7 +24,7 @@ function App() {
     // Usage example
     if (isMobileDevice()) {
       function performAction() {
-        window.location.href = `upi://pay?pn=Deeak&pa=919354340977@paytm&cu=INR&am=${totalAmount}`;
+        window.location.href = `upi://pay?pn=Deeak&pa=amzn0011573832@apl&cu=INR&am=${totalAmount}`;
     
       }
       // this.closeModal();

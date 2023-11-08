@@ -49,8 +49,7 @@ function App() {
   return (
     <div className="App">
     Make Payment For Test 
-        
-    <br />
+            <br />
     <p>Enter Amount to Send </p>
 
     <input placeholder="Enter Amount" type="number" onChange={handleChange} />
